@@ -30,12 +30,71 @@
 ## Требования
 
 - Java JDK 11 или выше
-- Gradle 7+
+- Gradle 7+ (или Gradle Wrapper)
 
 ## Сборка и запуск
 
 ```bash
+# Сборка проекта
+gradle build
+
+# Запуск приложения
 gradle run
+```
+
+## Структура проекта
+
+```
+osnovi_java_1/
+├── src/
+│   ├── main/
+│   │   └── java/
+│   │       └── org/example/
+│   │           └── Main.java      # Основной класс с примерами
+│   └── test/
+├── build.gradle
+└── README.md
+```
+
+## Вывод программы
+
+```
+=== 0) Операции над int ===
+a + b = 65
+a - b = -21
+a * b = 946
+a / b = 0
+a % b = 22
+
+=== 1) Операции над int и double ===
+x + y = 21.5
+x - y = 8.5
+x * y = 97.5
+x / y = 2.3076923076923075
+x / y * 2 - y + 1 = -0.884615384615385
+
+=== 2) Сравнительные операции ===
+m <  n  = false
+m >  n  = true
+m >= n  = true
+m <= n  = false
+m == n  = false
+m != n  = true
+(m > n) && (m < 10) = true
+(m < n) || (m == 9) = true
+!(m == n)           = true
+
+=== 3) Диапазоны float и double ===
+float  MIN_VALUE            = 1.4E-45
+float  MAX_VALUE            = 3.4028235E38
+double MIN_VALUE            = 4.9E-324
+double MAX_VALUE            = 1.7976931348623157E308
+...
+
+=== 4) Переполнение ===
+Integer.MAX_VALUE          = 2147483647
+Integer.MAX_VALUE + 1      = -2147483648
+...
 ```
 
 ## License

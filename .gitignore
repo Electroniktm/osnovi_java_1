@@ -25,3 +25,6 @@ replay_pid*
 # Build
 build/
 .gradle/
+
+# Gradle wrapper properties (downloaded automatically)
+gradle/wrapper/gradle-wrapper.properties

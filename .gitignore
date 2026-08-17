@@ -1,10 +1,6 @@
 .gradle/
 build/
-!gradle/wrapper/gradle-wrapper.jar
-
-.out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+out/
 
 ### IntelliJ IDEA ###
 .idea/
